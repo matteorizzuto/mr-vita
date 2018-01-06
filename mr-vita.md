@@ -113,34 +113,16 @@ Software Proficiencies
 
 *Working knowledge*  
 
-* MATLAB/Simulink
-* Simulink Coder (formerly Real-Time Workshop)
-* C/C++
-* Visual Studio
-* ANSYS (APDL, Fluent CFD, and Workbench)
-* Star-CCM+
-* Engineering Equation Solver (EES)
-* REFPROP
-* SolidWorks
 * Microsoft Office Suite (Word, Excel, Powerpoint, Outlook, Visio, Project)
 * Adobe Creative Suite (Acrobat, Photoshop, Illustrator, InDesign, Lightroom, Premiere, Dreamweaver, Fireworks)
-* HTML/CSS
 * LaTeX
-* Vim
 * Git SCM/VCS
-* Arch Linux
 * Mac OS X
 * Windows 7/8
 
 *Basic knowledge*  
 
-* Autodesk Products Suite (Inventor, AutoCAD Mechanical, Vault)
-* PTC Creo (formerly Pro/ENGINEER)
-* LabVIEW
-* Fortran 77/90/95
-* Modelica/Dymola
-* COMSOL Multiphysics
-* eQUEST
+* Python 3
 
 Professional Experience
 -----------------------
@@ -163,5 +145,5 @@ Professional Affiliations
 
 Language Skills
 ---------------
-Proficient knowledge of **English** (IELTS Overall band score of 8.5, 2 February 2013) 
+* Proficient knowledge of **English** (IELTS Overall band score of 8.5, 2 February 2013) 
 
