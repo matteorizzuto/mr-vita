@@ -4,17 +4,18 @@ Matteo Rizzuto
 Contact Information
 -------------------
 Mailing Address:  
-Ecosystem Ecology Lab 
-Department of Biology, Memorial University of Newfoundland
-232 Eliabeth Avenue, St. John
-NL A1B 3X9
-Canada
+Ecosystem Ecology Lab  
+Department of Biology,  
+Memorial University of Newfoundland  
+232 Eliabeth Avenue, St. John  
+NL A1B 3X9  
+Canada  
 
 Mobile: +1 (709) 743-8012  
-Web: http://matteorizzuto.github.io
+Web: http://matteorizzuto.github.io  
 Email: [mrizzuto@mun.ca](mailto:mrizzuto@mun.ca)  
 LinkedIn: [www.linkedin.com/in/matteorizzuto](https://www.linkedin.com/in/matteorizzuto)  
-GitHub: [www.github.com/matteorizzuto](https://www.github.com/matteorizzuto)
+GitHub: [www.github.com/matteorizzuto](https://www.github.com/matteorizzuto)  
 
 Education
 ---------
