@@ -237,3 +237,11 @@ gitTreeInfo.gtr
 git-forest.pl
 gitgraph.txt
 sample.txt
+
+*.fdb_latexmk
+
+*.fls
+
+*.gz
+
+*.xdv

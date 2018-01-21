@@ -1,20 +1,20 @@
 \documentclass[12pt,letterpaper]{article}
 
-\def\myauthor{Paul Gessler}
-\def\mytitle{pdg-vita}
-\def\myemail{pdgessler@gmail.com}
-\def\myweb{pdgessler}
-\def\myphone{414-241-1627}
+\def\myauthor{Matteo Rizzuto}
+\def\mytitle{mr-vita}
+\def\myemail{mrizzuto@mun.ca}
+\def\myweb{matteorizzuto}
+\def\myphone{+1 (709) 743-8012}
 \def\mykeywords{
-  paul gessler, 
-  resume, 
-  curriculum, 
-  vita, 
-  curriculum vita, 
-  cv, 
-  paul, 
-  gessler, 
-  pdg
+  matteo rizzuto,
+  resume,
+  curriculum,
+  vita,
+  curriculum vita,
+  cv,
+  matteo,
+  rizzuto,
+  mr
 }
 
 \setlength\parindent{0pt}
@@ -31,11 +31,14 @@
 \usepackage{enumitem}
 \setlist{nolistsep,leftmargin=0.15in}
 \usepackage[log-declarations=false]{xparse}
-\usepackage[adobe-garamond]{mathdesign}
+%\usepackage[garamond]{mathdesign}
 \usepackage[no-math]{fontspec}
+\usepackage{fontawesome}
 \usepackage{microtype}
 \usepackage[margin=1.125in,top=1.375in,right=1in,left=2in]{geometry}
 \usepackage[strict]{changepage}
+\usepackage{ocgx2}
+%\usepackage[T1]{fontenc}
 \usepackage[
   ocgcolorlinks,
   urlcolor={[rgb]{0,0,0.54}},
@@ -47,7 +50,9 @@
   pdfkeywords={\mykeywords}
 ]{hyperref}
 
-% fix ocgcolor link breaking; thanks due to Benjamin Lerner (http://goo.gl/VZKR7M)
+% fix ocgcolor link breaking; thanks due to Benjamin Lerner
+% (http://goo.gl/VZKR7M)
+\setmainfont{Adobe Garamond Pro}
 \makeatletter
 \AtBeginDocument{%
   \newlength{\temp@x}%
@@ -101,19 +106,19 @@
 \makeatother
 % end fixes
 
-\newcommand{\ML}{\textsc{Matlab}}
-\newcommand{\Simu}{Simulink}
-\newcommand{\MLS}{\ML{}/\Simu{}}
-\newcommand{\apdl}{\textsc{APDL}}
-\newcommand{\ansys}{\textsc{Ansys}}
-\newcommand{\fluent}{\textsc{Fluent}}
-\newcommand\CPP{C/C\ensuremath{+}\ensuremath{+}}
-\newcommand{\Star}{\textsc{Star-CCM\ensuremath{+}}}
+% \newcommand{\ML}{\textsc{Matlab}}
+% \newcommand{\Simu}{Simulink}
+% \newcommand{\MLS}{\ML{}/\Simu{}}
+% \newcommand{\apdl}{\textsc{APDL}}
+% \newcommand{\ansys}{\textsc{Ansys}}
+% \newcommand{\fluent}{\textsc{Fluent}}
+% \newcommand\CPP{C/C\ensuremath{+}\ensuremath{+}}
+% \newcommand{\Star}{\textsc{Star-CCM\ensuremath{+}}}
 
 \newcommand{\mhead}[1]{\leavevmode\marginpar{\sffamily\footnotesize #1}}
 \newcommand{\rdate}[1]{{\addfontfeature{Numbers=OldStyle} \hfill #1}}
 \renewcommand{\date}[1]{{\addfontfeature{Numbers=OldStyle} #1}}
-\renewcommand{\labelitemi}{-} 
+\renewcommand{\labelitemi}{-}
 
 \setmainfont[
   Ligatures={TeX,Common},
@@ -127,240 +132,273 @@
 \setmonofont[Scale=0.85]{FontAwesome}
 
 \makeatletter % fix for \hrulefill w/ mathdesign package
-\def\hrulefill{\leavevmode\leaders \hrule height \rulethickness \hfill\kern\z@}
+\def\hrulefill{\leavevmode\leaders\hrule\hfill\kern\z@}
 \makeatletter
 
 \begin{document}\flushbottom
 \pagestyle{fancy} \setlength\headwidth{6.5in}
-\rhead{\textsc{paul d.~gessler—r\'{e}sum\'{e}—\thepage{} of \pageref*{LastPage}}} \cfoot{}
+\rhead{\textsc{matteo~rizzuto—r\'{e}sum\'{e}—\thepage{} of \pageref*{LastPage}}} \cfoot{}
 \thispagestyle{empty}
 \begin{adjustwidth}{-1in}{}
 {\Huge
   {\textsc{%
-    {\addfontfeature{Style=TitlingCaps}P}\kern-1.5ptaul 
-    {\addfontfeature{Style=TitlingCaps}D}\kern-2pt.~%
-    {\addfontfeature{Style=TitlingCaps}G}essler}
+    {\addfontfeature{Style=TitlingCaps}M}atteo~
+    {\addfontfeature{Style=TitlingCaps}R}izzuto}
   }
 }
 \hfill\hfill\hfill
 {
   \begin{minipage}[b]{2in}
-    \flushleft \footnotesize 
-    4088 West Hawthorne Trace Road \\ 
-    Apartment 202 \\ 
-    Brown Deer, WI~~53209-1017
+    \flushleft \footnotesize
+    Department of Biology \\
+    Memorial University\\
+    St.\ John's,\ NL A1B~3X9
   \end{minipage}
   \hfill
   \begin{minipage}[b]{1.2in}
-    \flushright \footnotesize 
+    \flushright \footnotesize
     \href{tel:\myphone}{\myphone} \\ %\texttt{}~
     \href{mailto:\myemail}{\myemail} \\
-    \href{https://www.github.com/\myweb}{\texttt{}}~\href{https://www.linkedin.com/in/\myweb}{\texttt{}~\myweb}
+    \href{https://\myweb.github.io}{\texttt{\faGithub}}~\href{https://www.linkedin.com/in/\myweb}{\texttt{\faLinkedin}~\myweb}
   \end{minipage}
 }\par
 \hrulefill
-\end{adjustwidth}  
-\reversemarginpar 
+\end{adjustwidth}
+\reversemarginpar
 \setlength\marginparwidth{0.85in}
 \smallskip
 \mhead{Education}%
-\textbf{Marquette University,} Milwaukee, Wisconsin \newline
-\emph{Master of Science, \href{http://www.marquette.edu/engineering/mechanical/}{Mechanical Engineering}} \rdate{2012–2014}
+\textbf{Memorial University of Newfoundland,} St.\ John's, Newfoundland \newline
+\emph{Ph.D., \href{http://www.mun.ca/biology}{Biology}}
+\rdate{2016–present}
 \begin{itemize*}
-  \item Cumulative GPA: 3.44/4.00; {Energy Systems Specialization}
-  \item Thesis: \href{https://dl.dropboxusercontent.com/u/10724484/resume/pdg_thesis.pdf}{One-Dimensional Model of a Refrigeration Cycle Compressor Test Block}
-  \item Advisor: Dr.~Margaret M.~Mathison
-%  \item Coursework:\newline
-%    \begin{tabular}{ll}
-%      \addlinespace\toprule
-%      Advanced Engineering Mathematics & Transport Phenomena \\
-%      Approx.~Methods in Engineering Analysis & Advanced Fluid Mechanics \\
-%      Intermediate Thermodynamics & Sustainable Engineering \\
-%      Statistical Thermodynamics & Combustion \\
-%      \bottomrule
-%    \end{tabular}
+  \item {Ecosystem Ecology Lab}
+  \item Thesis: Bottom-up or top-down? Intraspecic variability, resource quality and space use in the Boreal Forest
+  \item Advisor: Dr.~Shawn J.~Leroux
 \end{itemize*}
 
 \medskip
-\textbf{Milwaukee School of Engineering,} Milwaukee, Wisconsin \newline
-\emph{Bachelor of Science, \href{http://www.msoe.edu/community/academics/mechanical-engineering-department/mechanical-engineering}{Mechanical Engineering}} \rdate{2008–2012}
+\textbf{Imperial College London - Silwood Park,} Ascot, UK \newline
+\emph{Master of Research,
+\href{https://www.imperial.ac.uk/study/pg/life-sciences/ecology-evolution-conservation-research/}{Ecology, Evolution and Conservation}}
+\date{2013–2014}
 \begin{itemize*}
-  \item Cumulative GPA: 3.56/4.00; \href{http://www.msoe.edu/community/academics/minors/page/1448/mathematics-minor}{Mathematics Minor}
-  \item Senior Project: \href{https://dl.dropbox.com/u/10724484/resume/ME492_2012_Design_Report_PulseWaterJet.pdf}{Modeling of Pulsed Jet Impingement on Brittle Materials}
-  \item Advisors: Prof.~Thomas J.~Labus and Dr.~Vincent C.~Prantil
-%  \item Selected Coursework:\newline
-%    \begin{tabular}{ll}
-%      \addlinespace\toprule
-%      
-%      \bottomrule
-%    \end{tabular}
-\end{itemize*}
-
-\bigskip
-\mhead{Software \newline Proficiencies}%
-\emph{Working knowledge}\newline%—comfortable using in a professional setting
-\MLS{}, 
-Simulink Coder,
-\CPP{}, 
-Visual Studio, 
-ANSYS 
-(APDL, 
-Fluent CFD, and 
-Workbench), 
-\Star{}, 
-Engineering Equation Solver (EES), 
-REFPROP, 
-SolidWorks, 
-Microsoft Office Suite, 
-Adobe Creative Suite, 
-HTML/CSS,
-\LaTeX{},
-Vim, 
-Git,
-SVN,
-Arch Linux, 
-Mac OS X, 
-Windows 7/8
-
-\medskip
-\emph{Basic knowledge}\newline%—would require some training/use to refresh my memory
-Autodesk Products Suite, 
-PTC Creo (Pro/ENGINEER),
-LabVIEW,
-Fortran~77/90/95,
-Modelica/Dymola,
-COMSOL Multiphysics,
-CTH,
-eQUEST%,
-
-\bigskip
-\mhead{Honors \& \newline Awards}%
-Teaching Assistant Honors, Marquette University, Milwaukee, WI         \rdate{2014}\newline
-First Place, \href{https://dl.dropboxusercontent.com/u/10724484/resume/pdg_poster_2014.pdf}{Poster Competition}, Marquette University, Milwaukee, WI   \rdate{2014}\newline
-Outstanding Student Chapter Award, SAE International, Detroit, MI      \rdate{2011, 2012}\newline
-Outstanding Collegiate Chapter, SAE Milwaukee Section, Milwaukee, WI   \rdate{2011      }\newline
-First Place, Design Report Competition, SAE Supermileage, Marshall, MI \rdate{2011      }\newline
-Dean's List, MSOE, Milwaukee, WI                                       \rdate{2008–2012}
-
-\bigskip
-\mhead{Professional \newline Experience}%
-\textbf{Johnson Controls, Inc.,} Milwaukee, WI \newline
-\emph{HVAC Systems Engineer (Experis), Control Applications} \rdate{\textsc{june}~2014–\textsc{present}}
-\begin{itemize*}
-  \item Support engineers using existing thermodynamic models for system testing
-  \item Convert control algorithm assets for use in a \MLS{} development process
-  \item Collaborate as part of a small team working to promote model-based design and automatic 
-    code generation for a wider range of products
+  \item Graduated with Distinction;
+  \item First Project: The Scaling of Activity Budgets in Carnivores.
+  \item Advisors: Dr.~Samraat Pawar and Dr.~Chris Carbone
+  \item First Project: Comparison of two commonly used methods to estimate species diversity: dung counts and camera trapping.
+  \item Advisors: Prof.~Mick J.~Crawley FRS and Dr.~Joris P.~Cromsigt
 \end{itemize*}
 
 \medskip
-\emph{Graduate Intern, Control Applications and Advanced Algorithms} \rdate{2010–2012}
+\textbf{University of Turin,} Turin, Italy \newline
+\emph{Master of Science, \href{https://goo.gl/rCzbq7}{Evolution of Animal and Human Behaviour}} \rdate{2009–2012}
 \begin{itemize*}
-  \item Designed, implemented, and tested 30 warning events for chiller control software
-  \item Planned and led nightly automated regression testing of 210 safety shutdown events
-  \item Improved automated testing speed in Excel/\MLS{} simulation by 15\%
-  \item Created and distributed release notes documenting new features and known issues
-%  \item Extended numerical chiller models to include two additional vessel configurations% and enhanced stall 
-%  \item Integrated existing building model into chiller control design simulation workflow
-\end{itemize*}
-
-\newgeometry{margin=1.125in,top=1in,right=1in,left=2in}
-\reversemarginpar\setlength\marginparwidth{0.85in}
-\mhead{Teaching \newline Experience}%
-\textbf{Marquette University,} Milwaukee, WI \newline
-\emph{Graduate Teaching Assistant, Mechanical Engineering Department} \rdate{2012–2014}
-MEEN~3210: Multidisciplinary Engineering Systems \rdate{\textsc{spring} 2013, \textsc{spring} 2014}\newline
-%Graded homework assignments, assisted students with hands-on laboratory exercises, and held open laboratory sessions\newline
-MEEN~2210: Electromechanical Engineering Systems \rdate{\textsc{spring} 2013, \textsc{spring} 2014}\newline
-MEEN~3340: Thermodynamics II \rdate{\textsc{fall} 2013}\newline
-%\begin{itemize*}
-%\item Prepared and delivered short introductory lectures for 3 experiments: %\newline %
-%  \emph{Uncertainty Analysis}, \emph{Refrigeration Cycle}, and \emph{Heat Exchanger Performance}
-%\item Guided and assisted 70 students in completing the aforementioned experiments
-%\item Graded student reports for aforementioned experiments and held office hours
-%\item Revised and updated the MEEN 3340 Laboratory Manual for future use
-%\end{itemize*}
-MEEN~3320: Fluid Mechanics \rdate{\textsc{fall} 2012}
-%Graded homework assignments and held office hours for 85 students in 3 sections
-
-\bigskip
-\mhead{Leadership \newline Experience}%
-\textbf{MSOE Society of Automotive Engineers,} Milwaukee, WI \newline
-\emph{Chairman} \rdate{2011–2012}
-\begin{itemize*}
-  \item Oversaw the general operation of the 150-member MSOE Student Chapter
-  \item Coordinated with professionals in nearby SAE Chapters to organize monthly events
-  \item Other Previous Positions: Program Coordinator and Webmaster (\date{2010–2011})
+  \item Thesis: Predator-prey interactions: feeding ecology of the Wolf (\textit{C. lupus}) and anti-predator behaviour of the Chamois (\textit{R. rupicapra}) in the Western Alps
+  \item Advisors: Dr.~Francesca Marucco
 \end{itemize*}
 
 \medskip
-\emph{Technical Lead, Supermileage Vehicle Steering Team} \rdate{2010–2011}
+\textbf{University of Turin,} Turin, Italy \newline
+\emph{Bachelor of Science,
+\href{http://biologia.campusnet.unito.it/do/home.pl}{Biology}}
+\rdate{2004–2009}
 \begin{itemize*}
-  \item Designed, analyzed, manufactured, and tested aluminum suspension frame
-  \item Responsible for steering/brake system performance and component integration
-%  \item Provided weekly progress reports to Project Manager and other team leaders
-  \item Co-authored and edited the \href{https://dl.dropbox.com/u/10724484/resume/MSOE_CarbonairDesignReport2011.pdf}{Design Report} (First Place, Design Report Competition)
-\end{itemize*}
-
-\bigskip
-\textbf{MSOE Residence Life,} Milwaukee, WI \newline
-\emph{Resident Assistant} \rdate{2010–2012}
-\begin{itemize*}
-  \item Provided academic, personal, and professional advice for 35 students
-  \item Planned events for residents, such as r\'{e}sum\'{e} workshops and indoor rock climbing
-  \item Resolved roommate conflicts and policy violations as needed
-\end{itemize*}
-
-\bigskip
-\mhead{Research \newline Experience}%
-\textbf{MSOE Rapid Prototyping Research,} Milwaukee, WI \newline
-\emph{Undergraduate Research Assistant} \rdate{2009–2011}
-\begin{itemize*}
-\item Designed and modeled mold flow passages to improve metal flow and solidification
-\item Prepared rapid-prototyped patterns and created ceramic molds
-\item Cast copper alloy nozzle structures using a novel vacuum-casting process
-\item Contributed to reports and presentations for two actively-cooled nozzle projects
+  \item Graduated with honours
+  \item Thesis: Individual characteristics of vocalisations emitted during the song of \textit{Indri indri}.
+  \item Advisors: Prof.~Cristina Giacoma, Dr.~Marco Gamba
 \end{itemize*}
 
 \bigskip
 \mhead{Publications}%
-%\emph{Conference paper}\\
-\par\vspace{-\baselineskip}\textbf{Gessler, P.D.,} Mathison, M.M., \& Bowman, A.J.~(\date{17 \textsc{july} 2014}).
-\emph{\href{https://www.conftool.com/2014Purdue/index.php/Gessler-2014-Modeling_of_a_Hot_Gas_Bypass_Test_Block_for_Centrifugal_Compressors-1549_a.pdf?page=downloadPaper&filename=Gessler-2014-Modeling_of_a_Hot_Gas_Bypass_Test_Block_for_Centrifugal_Compressors-1549_a.pdf&form_id=1549&form_version=final}{Modeling of a Hot Gas Bypass Test Block for Centrifugal Compressors}}.
-Paper presented at the {International Compressor Engineering Conference at Purdue University}, West Lafayette, IN.
+\emph{Peer Reviewed}
+\begin{enumerate}
+\item \textbf{Rizzuto, M.,} Carbone, C., and
+Pawar, S.~(\date{2017}). Foraging constraints reverse the scaling of
+activity time in carnivores. \emph{Nature Ecology and Evolution}.\newline
+doi:
+\href{https://doi.org/10.1038/s41559-017-0386-1}{10.1038/s41559-017-0386-1}%\newline
+\medskip
+\item Sal, S., Yvon-Durocher, G.,
+Garcia-Carreras, B., Sheppard, R., \textbf{Rizzuto, M.,} Etard, A.,
+and Pawar, S. (\date{2017}).
+Metabolic mismatches and compensation in the thermal dependence of
+daily carbon flux in plants. \emph{Nature Plants}, \emph{In Review}.
+\end{enumerate}
 
 \medskip
-%\emph{Book}\\
-Prantil, V.C., Papadopoulos, C., \& \textbf{Gessler, P.D.} (\date{2013}). 
-\emph{\href{http://www.morganclaypool.com/doi/abs/10.2200/S00503ED1V01Y201305ENG023}{Lying By Approximation: The Truth about Finite Element Analysis}}.
-San Francisco, CA: Morgan \& Claypool Publishers.
+\emph{Gray Literature}%\newline
+\begin{enumerate}
+\item Cagnacci, F., Rocca, M., Nicoloso, S.,
+Ossi, F., Peters, W., Mancinelli, S., Valent, M., \textbf{Rizzuto,
+M.}, Hebblewhite, M.~(\date{2013}). \emph{Il progetto 2C2T.} Il
+Cacciatore Trentino, 93, 4--15.
+\end{enumerate}
+\pagebreak
+
+\medskip
+\mhead{Conferences}%
+\emph{Talks}%\newline
+\begin{enumerate}
+\item \textbf{Rizzuto, M.,} Carbone, C., and Pawar, S.~(\date{2016}).
+\emph{Bio-mechanical constraints on foraging reverse the scaling of
+activity rate among carnivores.}
+Canadian Society for Ecology and Evolution Annual General Meeting,
+St.\ John's, NL, Canada.
+\end{enumerate}
+
+\medskip
+\emph{Attended}
+\begin{itemize*}
+  \item \emph{Canadian Society for Ecology and Evolution Annual General Meeting},\\ St.\ John's, NL, Canada \rdate{7-11 \textsc{july} 2016}
+  \item \emph{From Energetics to Macro Ecology: Carnivore Responses to Environmental Change},\\ Zoological Society of London, London, UK \rdate{14-15 \textsc{november} 2013}
+  \item \emph{4$^{th}$ Euroscience Open Forum}, Turin, Italy \rdate{2-7 \textsc{july} 2010}
+  \item \emph{XIX Congress of the Italian Primatological Society}, Asti, Italy \rdate{1-3 \textsc{april} 2009}
+\end{itemize*}
 
 \bigskip
-\mhead{Invited Talks}%
-\textbf{Gessler, P.D.} (\date{6 \textsc{nov.}~2014}, \date{11 \textsc{nov.}~2013}).
-\emph{FEA for Thermal Applications: Developing a Transient, Two-dimensional Code.}
-Guest lecture at Milwaukee School of Engineering.
+\mhead{Research \newline Experience}%
+\textbf{Pawar Lab,} Imperial College London - Silwood Park, Ascot, UK \newline
+\emph{Research Assistant} \rdate{\textsc{january}–\textsc{march}~2016}
+\begin{itemize*}
+  \item Worked with digitization softwares to extract terrestrial plant thermal response data from published studies
+  \item Assisted with database management and data cleanup, as well as formation of new team members
+  \item Part of a larger project aimed at analyzing the effects of temperature on the physiology of a number of different phyla
+\end{itemize*}
 
 \medskip
-\textbf{Gessler, P.D.} (\date{30 \textsc{sept.}~2013}).
-\emph{Introduction to Model-Based Design: With Transportation Examples.}
-Presentation delivered to the MSOE Society of Automotive Engineers.
+\textbf{Tsaobis Baboon Project,} Zoological Society of London, London, UK \newline
+\emph{Research Assistant} \rdate{\textsc{june}–\textsc{october}~2015}
+\begin{itemize*}
+  \item Three months placement, part of a long term research project on the ecology of the Chacma baboon (\textit{P. ursinus}), in the Tsaobis Leopard Nature Park (Namibia)
+  \item Assisted with collection of behavioural data and faecal samples from two troops of habituated baboons, as well as with plant phenology surveys in the Tsaobis riverbed and nearby hills
+  \item Improved my knowledge of behavioural sampling techniques, primate and desert ecology, as well as of project management and of GPS equipment
+\end{itemize*}
+
+\medskip
+\textbf{Roe and Red Deer in Trentino and Technology Project,} Trento, Italy\newline
+\emph{Research Assistant} \rdate{\textsc{june}–\textsc{september}~2013}
+\begin{itemize*}
+  \item Studied the migratory behaviour of roe deer (C. capreolus) using radio-tracking techniques (GPS, VHF), plant phenology surveys and pellet decay rate analyses
+  \item Intensive fieldwork in a physically demanding environment, under harsh weather conditions
+  \item Worked with researchers from the Ungulate Ecology Lab of the University of Montana, as part of an international team coalescing a variety of different backgrounds and expertise
+  \item Greatly enhanced my radio-tracking, plant and pellet identification and organizational skills
+\end{itemize*}
+
+\medskip
+\textbf{Piedmont Wolf Project,} Maritime Alps Nature Park, Entraque (CN), Italy\newline
+\emph{Graduate Intern} \rdate{\textsc{june}–\textsc{december}~2011}
+\begin{itemize*}
+  \item Designed and performed a study of the predator-prey interactions of wolves (\textit{C. lupus}) and chamois (\textit{R. rupicapra}) in the Maritime Alps Natural Park
+  \item Managed of all aspects of the project, including sampling sites selection, behavioural sampling, prey identification by hair analysis and scat specimen preparation for genetic analyses
+  \item Vastly enhanced my fieldwork, laboratory and time-management skills
+\end{itemize*}
+
+\medskip
+\textbf{Ethology Lab,} University of Turin, Turin, Italy\newline
+\emph{Intern} \rdate{\textsc{june}~2008–\textsc{march}~2009}
+\begin{itemize*}
+  \item Performed computer-based analyses on the group song of the Indri lemur
+  \item Learned the basics of bioacoustics analysis, database management and statistics
+\end{itemize*}
+
+%\newgeometry{margin=1.125in,top=1in,right=1in,left=2in}
+%\reversemarginpar\setlength\marginparwidth{0.85in}
+\bigskip
+\mhead{Teaching \newline Experience}%
+\textbf{Memorial University of Newfoundland,} St.\ John's, NL, Canada \newline
+\emph{Graduate Teaching Assistant, Department of Biology} \rdate{2017}\newline
+BIOL~1002: Principles of Biology \rdate{\textsc{winter} 2017}
+
+\medskip
+\textbf{Imperial College London,} London, UK \newline
+\emph{Undergraduate Teaching Assistant, Department of Life Sciences} \rdate{2014–2015}\newline
+Ecology, 2$^{nd}$ year course \rdate{\textsc{spring} 2015}\newline
+Behavioural Ecology, 2$^{nd}$ year course \rdate{\textsc{winter} 2015}\newline
+Introduction to Biological Statistics, 2$^{nd}$ year course \rdate{\textsc{fall} 2014}
+
+\medskip
+\textbf{Imperial College London - Silwood Park,} Ascot, UK \newline
+\emph{Graduate Teaching Assistant, Department of Life Sciences} \rdate{2014}\newline
+Statistics \rdate{\textsc{fall} 2014}\newline
+Macroecology and Climate Change \rdate{\textsc{fall} 2014}
+
+\bigskip
+\mhead{Leadership \newline Experience}%
+\textbf{Biology Graduate Student Association,} Memorial University, St.\ John's, NL \newline
+\emph{Seminar Coordinator} \rdate{2016--2017}
+\begin{itemize*}
+  \item Organized and run the weekly Seminar series for the Department of Biology, as part of a team of three coordinators
+  \item Approached, scheduled and managed potential speakers, from both within and outside the Department and the Province
+  \item Helped in organizing the annual Seminar showcasing the research produced by the Department's graduate students
+  \item Contributed to fundraising and outreach activities organized by the Association
+\end{itemize*}
+
+\medskip
+\textbf{OASI - Operazione Mato Grosso,} Turin, Italy \newline
+\emph{Youth Counselor} \rdate{2000–2013}
+\begin{itemize*}
+  \item Volunteer work ranging from education to entertainment, involving children and teenagers in primary, secondary and high school, and summer camps
+  \item Engaged in similar formative activities with deprived children during a 2.5-months-long missionary post at the Hospital S{\~a}o Juli{\~a}o in Campogrande
+  \item Taught me the value of hard work and developed my publication relationship, oratory and teamwork skills
+\end{itemize*}
+
+\medskip
+\textbf{XX Winter Olympic and IX Paralympic Games}, Turin, Italy\newline
+\emph{Team Leader, Protocol Crew, International Relations and Services} \rdate{2005–2006}
+\begin{itemize*}
+  \item Organized and supervised daily activities of a team of 10 volunteers, provided initial containment of emergencies, customer assistance and ensured my team’s welfare
+  \item Greatly developed my leadership and problem solving skills
+\end{itemize*}
+
+\bigskip
+\mhead{Professional \newline Experience}%
+\textbf{Catherine Bickmore Associates Ltd.,} London, UK\newline
+\emph{Assistant Surveyor} \rdate{\textsc{may}–\textsc{june}~2015}
+\begin{itemize*}
+  \item Involved in reptile and amphibian censuses in Kent, Wiltshire and Cambridgeshire
+  \item Expanded my knowledge of amphibian and reptile ecology, of ecological survey techniques and of the mechanisms of environmental consultancy
+\end{itemize*}
 
 \bigskip
 \mhead{Professional \newline Affiliations}%
-Member ASHRAE \rdate{2012–2014}\newline
-Member SAE \rdate{2008–2013}
+Canadian Society of Ecology and Evolution \rdate{2016–2018}\newline
+
+\bigskip
+\mhead{Software \newline Proficiencies}%
+\emph{Working knowledge}\newline%—comfortable using in a professional setting
+Microsoft Office Suite,
+Adobe Creative Suite,
+R,
+RStudio,
+\LaTeX{},
+Markdown,
+Git,
+MacOS X,
+Windows 7/8,
+Unix shell,
+Quantum GIS,
+ArcGIS
+
+\medskip
+\emph{Basic knowledge}\newline%—would require some training/use to refresh my memory
+File Maker Pro Advanced,
+YAML,
+Inkscape,
+Gimp,
+Pixelmator
+
+\bigskip
+\mhead{Honors \& \newline Awards}%
+Dean's Doctoral Award, Memorial University of Newfoundland,\\ St.\ John's, NL, Canada         \rdate{2016, 2017}\newline
+Erasmus-LLP Scholarship, University of Turin, Turin, Italy     \rdate{2010}\newline
 
 \bigskip
 \mhead{Activities \& \newline Interests}%
-Varsity Crew (\date{2008–2010}), 
-Cycling, 
-Running, 
-Backpacking, 
-Canoeing, 
-%Woodworking, 
-Photography, 
-Graphic/Web Design,
-Computer System Administration,
-Trumpet Performance
+Backpacking,
+Hiking,
+Photography,
+Yoga,
+T'ai Chi Quan,
+Shaolin Kung Fu
 \end{document}
