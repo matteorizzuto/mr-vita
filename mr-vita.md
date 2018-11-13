@@ -3,11 +3,19 @@ Matteo Rizzuto
 
 Contact Information
 -------------------
+<<<<<<< HEAD
 Mailing Address:<br/>
 Ecosystem Ecology Lab<br/>
 Department of Biology,<br/>
 Memorial University of Newfoundland,<br/>
 232 Elizabeth Avenue, St. John's,<br/>
+=======
+Mailing Address:
+Ecosystem Ecology Lab
+Department of Biology,
+Memorial University of Newfoundland,
+232 Elizabeth Avenue, St. John's,
+>>>>>>> master
 NL A1B 3X9
 Canada
 
@@ -19,13 +27,21 @@ GitHub: [www.github.com/matteorizzuto](https://www.github.com/matteorizzuto)
 
 Education
 ---------
+<<<<<<< HEAD
 **Memorial University of Newfoundland,** St. John's, NL, Canada<br/>
+=======
+**Memorial University of Newfoundland,** St. John's, NL, Canada
+>>>>>>> master
 *Ph.D. Candidate, [Biology](http://www.mun.ca/biology)*,  2016--present
 
 * Thesis: _Bottom-up or top-down? Intraspecific variability, resource quality, and space use in the Boreal Forest_
 * Advisor: Dr. Shawn J. Leroux
 
+<<<<<<< HEAD
 **Imperial College London,** London, UK<br/>
+=======
+**Imperial College London,** London, UK
+>>>>>>> master
 *Master of Research (Distinction), [Ecology, Evolution and Conservation](https://www.imperial.ac.uk/study/pg/life-sciences/ecology-evolution-conservation/)*,
 2013--2014
 
@@ -175,7 +191,11 @@ Software Proficiency
 
 Professional Experience
 -----------------------
+<<<<<<< HEAD
 **Catherine Bickmore Associates Ltd.,** London, UK<br/>
+=======
+**Catherine Bickmore Associates Ltd.,** London, UK  
+>>>>>>> master
 *Assistant Surveyor*, 2015
 
 * Reptile and amphibians censuses
