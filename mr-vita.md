@@ -24,31 +24,30 @@ Education
 *Ph.D. Candidate, [Biology](http://www.mun.ca/biology)*,  2016--present
 
 * Thesis: _Bottom-up or top-down? Intraspecific variability, resource quality, and space use in the Boreal Forest_
-* Advisor: Dr. Shawn J. Leroux
+  - Advisor: Dr. Shawn J. Leroux
 
 **Imperial College London,** London, UK<br/>
 *Master of Research (Distinction), [Ecology, Evolution and Conservation](https://www.imperial.ac.uk/study/pg/life-sciences/ecology-evolution-conservation/)*,
 2013--2014
 
-* Completed with Distinction
 * First Research Project: _The Scaling of Activity Budgets in Carnivores_
-* Advisors: Dr. Samraat Pawar and Dr. Chris Carbone
+  - Advisors: Dr. Samraat Pawar, Dr. Chris Carbone
 * Second Research Project: _Comparison of two commonly used methods to estimate species diversity:dung counts and camera trapping._
-* Advisors: Prof. Mick J. Crawley FRS, Prof. Joris P. Cromsigt
+  - Advisors: Prof. Mick J. Crawley FRS, Prof. Joris P. Cromsigt
 
 **University of Turin,** Turin, Italy<br/>
 *Master of Science, [Evolution of Animal and Human Behavior](http://naturali.campusnet.unito.it/do/home.pl/View?doc=HomePageLM_ECAU.html)*,
 2009--2012
 
 * Thesis: _Predator-prey interactions: feeding ecology of the Wolf (C. lupus) and anti-predator behaviour of the Chamois (R. rupicapra) in the Western Alps_
-* Advisor: Dr. Francesca Marucco
+  - Advisor: Dr. Francesca Marucco
 
 **University of Turin,** Turin, Italy<br/>
 *Bachelor of Science, [Biology](http://biologia.campusnet.unito.it/do/home.pl)*,
 2004--209
 
 * Thesis: _Individual characteristics of vocalisations emitted during the song of Indri indri_
-* Advisor: Prof. Cristina Giacoma, Dr. Marco Gamba
+  - Advisors: Prof. Cristina Giacoma, Dr. Marco Gamba
 
 Publications
 ------------
