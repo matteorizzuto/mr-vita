@@ -3,7 +3,7 @@
 **Memorial University of Newfoundland,** St. John’s, NL, Canada
 <span><span> <span
 style="font-variant:small-caps;">may</span> 2016-<span
-style="font-variant:small-caps;">Present</span></span></span>\
+style="font-variant:small-caps;">present</span></span></span>\
 *Ph.D. Candidate, [Biology](http://www.mun.ca/biology)*
 
 Thesis: Bottom-up or top-down? Intraspecic variability, resource
@@ -51,9 +51,7 @@ Advisors: Prof. Cristina Giacoma and Dr. Marco Gamba
 
 *Peer Reviewed*
 
-**Rizzuto, M.,** Carbone, C., and Pawar, S. (
-
-). Foraging constraints reverse the scaling of activity time in
+**Rizzuto, M.,** Carbone, C., and Pawar, S. (2018). Foraging constraints reverse the scaling of activity time in
 carnivores. *Nature Ecology and Evolution* **2**, 247–253.\
 doi:
 [10.1038/s41559-017-0386-1](https://doi.org/10.1038/s41559-017-0386-1)
@@ -62,69 +60,49 @@ doi:
 *Scientific Communication*
 
 Cagnacci, F., Rocca, M., Nicoloso, S., Ossi, F., Peters, W., Mancinelli,
-S., Valent, M., **Rizzuto, M.**, Hebblewhite, M. (
-
-). *Il progetto 2C2T.* Il Cacciatore Trentino, 93, 4–15.
+S., Valent, M., **Rizzuto, M.**, Hebblewhite, M. (2013). *Il progetto 2C2T.* Il Cacciatore Trentino, 93, 4–15.
 
 **Rizzuto, M.,** Leroux, S. J., Vander Wal, E., Wiersma, Y., Heckford,
-T. R., Balluffi-Fry, J. (
-
-). *Ontogeny and Ecological Stoichiometry of Snowshoe hares (Lepus
+T. R., Balluffi-Fry, J. (2018). *Ontogeny and Ecological Stoichiometry of Snowshoe hares (Lepus
 americanus) in the Boreal Forests of Newfoundland.* Canadian Society for
 Ecology and Evolution Annual General Meeting, Guelph, ON, Canada.
 
 Heckford, T. R., Leroux, S. J., Vander Wal, E., **Rizzuto, M.**,
-Balluffi-Fry, J., Richmond, I., Wiersma, Y. (
-
-). *Investigating the effect of competition on the intraspecific
+Balluffi-Fry, J., Richmond, I., Wiersma, Y. (2018). *Investigating the effect of competition on the intraspecific
 variability of foliar elemental traits.* Atlantic Society of Fish and
 Wildlife Biologists Annual General Meeting, Corner Brook, NL, Canada.
 
 Heckford, T. R., Leroux, S. J., Vander Wal, E., **Rizzuto, M.**,
-Balluffi-Fry, J., Wiersma, Y. (
-
-). *Spatial Variability in the Elemental Composition of Plants:
+Balluffi-Fry, J., Wiersma, Y. (2018). *Spatial Variability in the Elemental Composition of Plants:
 Implications for Herbivores on the Resource Stoichiometric Landscape.*
 Canadian Society of Zoologists Annual General Meeting, St. John’s, NL,
 Canada.
 
 Heckford, T. R., Leroux, S. J., Vander Wal, E., **Rizzuto, M.**,
-Balluffi-Fry, J., Wiersma, Y. (
-
-). *From Elements to Communities to Ecosystems.* Nature Newfoundland and
+Balluffi-Fry, J., Wiersma, Y. (2018). *From Elements to Communities to Ecosystems.* Nature Newfoundland and
 Labrador, St. John’s, NL, Canada.
 
 Heckford, T. R., Leroux, S. J., Vander Wal, E., **Rizzuto, M.**,
-Balluffi-Fry, J., Wiersma, Y. (
-
-). *The stoichiometric landscape: mapping the biogeochemical matrix with
+Balluffi-Fry, J., Wiersma, Y. (2018). *The stoichiometric landscape: mapping the biogeochemical matrix with
 wildlife in mind.* Geomatics Atlantic Conference, St. John’s, NL,
 Canada.
 
-**Rizzuto, M.,** Carbone, C., and Pawar, S. (
-
-). *Bio-mechanical constraints on foraging reverse the scaling of
+**Rizzuto, M.,** Carbone, C., and Pawar, S. (2016). *Bio-mechanical constraints on foraging reverse the scaling of
 activity rate among carnivores.* Canadian Society for Ecology and
 Evolution Annual General Meeting, St. John’s, NL, Canada.
 
 **Rizzuto, M.,** Leroux, S. J., Vander Wal, E., Wiersma, Y., Heckford,
-T. R., Balluffi-Fry, J. (
-
-). *Beyond Diffusion: Animal-Mediated Nutrient Transport at Different
+T. R., Balluffi-Fry, J. (2018). *Beyond Diffusion: Animal-Mediated Nutrient Transport at Different
 Spatial Scales.* “Unifying Ecology Across Scales” Gordon Research
 Seminar and Conference, Biddeford, ME, USA.
 
 Balluffi-Fry J., Vander Wal E., Leroux S. J., Wiersma Y., Heckford T.
-R., **Rizzuto M.** (
-
-). *Using forage elemental composition to test for scale-dependent
+R., **Rizzuto M.** (2018). *Using forage elemental composition to test for scale-dependent
 quality and quantity trade-offs in moose.* Canadian Society for Ecology
 and Evolution Annual General Meeting, Guelph, ON, Canada.
 
 Balluffi-Fry J., Vander Wal E., Leroux S. J., Wiersma Y., Heckford T.
-R., **Rizzuto M.** (
-
-). *Multi-scale test of moose foraging strategy using quantitative
+R., **Rizzuto M.** (2018). *Multi-scale test of moose foraging strategy using quantitative
 elemental measures for forage quality and quantity.* Memorial University
 Biology Graduate Student Symposium, St. John’s, NL, Canada.
 
