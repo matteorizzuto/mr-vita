@@ -5,6 +5,7 @@
 \def\myemail{mrizzuto@mun.ca}
 \def\myweb{matteorizzuto}
 \def\mytwitter{@MatteoRiz}
+\def\myorcid{0000-0003-3065-9140}
 \def\myphone{+1 (709) 743--8012}
 \def\mykeywords{
   matteo rizzuto,
@@ -34,7 +35,8 @@
 \usepackage[log-declarations=false]{xparse}
 \usepackage[garamond]{mathdesign}
 \usepackage[no-math]{fontspec}
-\usepackage{fontawesome}
+% \usepackage{fontawesome}
+\usepackage{fontawesome5}
 \usepackage{microtype}
 \usepackage[margin=1.125in,top=1.375in,right=1in,left=2in]{geometry}
 \usepackage[strict]{changepage}
@@ -154,23 +156,27 @@
     \flushleft \footnotesize
     Ecosystem Ecology Lab\\
     Department of Biology \\
-    Memorial University\\
+    Memorial University of Newfoundland\\
     St.\ John's,\ NL, Canada
   \end{minipage}
   \hfill
-  \begin{minipage}[b]{1.2in}
+  \begin{minipage}[b]{1.5in}
     \flushright \footnotesize
     \href{tel:\myphone}{\myphone} \\ %\texttt{}~
     \href{mailto:\myemail}{\myemail} \\
     \href{https://www.linkedin.com/in/\myweb}{\texttt{\faLinkedin}}~\href{https://\myweb.github.io}{\texttt{\faGithub}~\myweb}\\
-    \href{https://twitter.com/\mytwitter}{\texttt{\faTwitterSquare}~\mytwitter}
+    \href{https://twitter.com/\mytwitter}{\texttt{\faTwitter}~\mytwitter}\\
+    \href{https://orcid.org/0000-0003-3065-9140}{\texttt{\faOrcid}~\myorcid}
   \end{minipage}
 }\par
 \hrulefill
 \end{adjustwidth}
 \reversemarginpar
 \setlength\marginparwidth{0.85in}
+
 \smallskip
+% \section{Education}
+
 \mhead{Education}%
 \textbf{Ph.D. Candidate}, \emph{\href{http://www.mun.ca/biology}{Biology}} \rdate{\textsc{may}~2016-\textsc{present}}\\
 Memorial University of Newfoundland, St.\ John's, NL, Canada
@@ -207,7 +213,7 @@ Imperial College London-Silwood Park, Ascot, UK
 \textbf{Master of Science}, \emph{\href{https://goo.gl/rCzbq7}{Evolution of Animal and Human Behaviour}} \rdate{\textsc{mar.}~2009-\textsc{dec.}~2012}\\
 University of Turin, Turin, Italy
 \begin{itemize*}
-  \item Thesis: Predator-prey interactions: feeding ecology of the Wolf (\textit{C. lupus}) and anti-predator behaviour of the Chamois (\textit{R. rupicapra}) in the Western Alps
+  \item Thesis: Predator-prey interactions: feeding ecology of the Wolf (\textit{Canis lupus}) and anti-predator behaviour of the Chamois (\textit{Rupicapra rupicapra}) in the Western Alps
   \item Supervisor: Dr.~Francesca Marucco
 \end{itemize*}
 
@@ -221,7 +227,14 @@ University of Turin, Turin, Italy
 \end{itemize*}
 
 \bigskip
+% \section{Publications}
 \mhead{Publications}%
+\begingroup
+\small
+Note: for papers where I am first author, I led study design, data collection, analysis, and writing. For papers where I am fourth author or later, I contributed to ideas, data collection, and writing.
+\endgroup
+
+\smallskip
 \emph{Peer Reviewed}
 \begin{itemize*}
 \item \textbf{Rizzuto, M.}, Leroux, S. J., Vander Wal, E., Wiersma, Y. F., Heckford, T. R., Balluffi-Fry, J.~(\date{2019}). Patterns and potential drivers of intraspecific variability in the body C, N, and P composition of a terrestrial vertebrate, the snowshoe hare (\textit{Lepus americanus}). \textit{Ecology and Evolution} \textbf{9}, 14453--14464. doi: \href{https://doi.org/10.1002/ece3.5880}{10.1002/ece3.5880}
@@ -233,11 +246,13 @@ Ecology and Evolution} \textbf{2}, 247--253.\\ doi:
 \rdate{\textbf{\textit{Cover story}}}
 \end{itemize*}
 
-% \medskip
-% \emph{In Review}
-% \begin{itemize*}
-% \item Heckford, T., Leroux, S., Vander Wal, E., \textbf{Rizzuto, M.}, Balluffi-Fry, J., Richmond, I., Wiersma, Y.~(\date{2019}). The biogeography of stoichiometric niches, a tale of foundation species co-occurrence. \emph{Ecology}.
-% \end{itemize*}
+\medskip
+\emph{In Progress}
+\begin{itemize*}
+\item Heckford, T. R., Leroux, S. J., Vander Wal, E., \textbf{Rizzuto, M.}, Balluffi-Fry, J., Richmond, I. C., Wiersma, Y. F.~(\date{2020}). Foliar elemental niche responses of balsam fir (\textit{Abies balsamea}) and white birch (\textit{Betula papyrifera}) to differing community types across geographic scales. Submitted, \emph{Functional Ecology}, manuscript id: FE-2020-00432.
+\item Balluffi-Fry, J., Leroux, S. J., Wiersma, Y. F., Heckford, T. R., \textbf{Rizzuto, M.}, Richmond, I. C., Vander Wal, E. ~(\date{2020}). Quantity-quality trade-offs revealed using a multiscale test of herbivore resource selection on elemental landscapes. In review, \emph{Proceedings of the Royal Society B: Biological Sciences}, manuscript id: RSPB-2020-0527.
+\item Heckford, T. R., Leroux, S. J., Vander Wal, E., \textbf{Rizzuto, M.}, Balluffi-Fry, J., Richmond, I. C., Wiersma, Y. F.~(\date{2020}). Does where you live influence what you’re made of? Spatial correlates of chemical traits across commonly occurring boreal plants. In review, \emph{Landscape Ecology}, manuscript id: LAND-D-20-00109.
+\end{itemize*}
 
 % \medskip
 % \emph{Preprints}
@@ -253,6 +268,7 @@ progetto 2C2T.} Il Cacciatore Trentino, 93, 4--15.
 \end{itemize*}
 
 \bigskip
+% \section{Conference Presentations}
 \mhead{Conference\\ Presentations}%
 \par\vspace{-\baselineskip}\begin{itemize*}
 \setlength\itemsep{0.25em}
@@ -300,6 +316,7 @@ Y., Heckford, T. R., Balluffi-Fry, J. \emph{Beyond Diffusion: Animal-Mediated Nu
 % \end{itemize*}
 
 \bigskip
+% \section{Honors and Awards}
 \mhead{Honors \& \newline Awards}%
 \par\vspace{-\baselineskip}\begin{itemize*}
 \item First Place, H5P Maker Session, Centre for Innovation in Teaching and Learning, Memorial University of Newfoundland \rdate{2019}
@@ -325,6 +342,7 @@ Y., Heckford, T. R., Balluffi-Fry, J. \emph{Beyond Diffusion: Animal-Mediated Nu
 \end{itemize*}
 
 \bigskip
+% \section{Research Experience}
 \mhead{Research \newline Experience}%
 \textbf{Visiting Assistant in Research}, \emph{Schmitz Lab} \rdate{\textsc{feb.}-\textsc{apr.}~2019}\\
 School of Forestry and Environmental Sciences, Yale University, New Haven, CT
@@ -378,7 +396,18 @@ University of Turin, Turin, Italy
 \end{itemize*}
 
 \bigskip
+% \section{Teaching Experience}
 \mhead{Teaching \newline Experience}%
+\textbf{Guest Lecturer}, \emph{Department of Biology}\\
+Memorial University of Newfoundland, St.\ John's, NL, Canada\\
+\textit{Models in Biology} \rdate{\textsc{winter} 2020} % external
+\begin{itemize*}
+    \item Lecture: Classical Models in Ecology
+    \item Lecture: Models of Species Interactions
+    \item Lecture: Meta-ecology Models
+\end{itemize*}
+\vspace{0.25em}
+
 \textbf{Graduate Teaching Assistant}, \emph{Department of Biology}\\
 Memorial University of Newfoundland, St.\ John's, NL, Canada\\
 % BIOL~2600: Principles of Ecology \rdate{\textsc{fall} 2018} % internal
@@ -394,12 +423,12 @@ Memorial University of Newfoundland, St.\ John's, NL, Canada\\
 \textit{Principles of Biology} \rdate{\textsc{winter} 2017} % external
 \begin{itemize*}
     \item Demonstrator during practical laboratories
-    \item Supported students during practical laboratories and in preparing exams
+    % \item Supported students during practical laboratories and in preparing exams
     \item Invigilated midterm and final exams
     \item Marked weekly lab reports
 \end{itemize*}
 
-\medskip
+\smallskip
 \textbf{Undergraduate Teaching Assistant}, \emph{Department of Life Sciences}\\
 Imperial College London, London, UK \\
 \textit{Ecology} \rdate{\textsc{spring} 2015} % , 2\(^{nd}\) year course
@@ -422,7 +451,7 @@ Imperial College London, London, UK \\
     \item Facilitated Q\&A sessions ahead of final exams
 \end{itemize*}
 
-\medskip
+\smallskip
 \textbf{Graduate Teaching Assistant}, \emph{Department of Life Sciences}\\
 Imperial College London-Silwood Park, Ascot, UK \\
 \textit{Statistics} \rdate{\textsc{fall} 2014}
@@ -435,14 +464,17 @@ Imperial College London-Silwood Park, Ascot, UK \\
 \textit{Macroecology and Climate Change} \rdate{\textsc{fall} 2014}
 \begin{itemize*}
 \item Demostrator for practical lectures
-\item Assisted students in using Maxent to produce species distribution predictions under different climate change scenarios
+\item Assisted students in using the species distribution software Maxent
 \end{itemize*}
 
 \bigskip
+% \section{Professional Development}
 \mhead{Professional\\ Development}
 % \par\vspace{-\baselineskip}
 \emph{Courses}
 \begin{itemize*}
+    \item \textbf{Becoming a More Equitable Educator: Mindsets and Practices}, \rdate{\textsc{present}}\\
+    \emph{MIT Teaching Systems Lab}, \href{www.edx.org}{edX.org}
     \item \textbf{Teaching Skills Enhancement Program}, \rdate{\textsc{present}}\\
     \emph{Centre for Innovation in Teaching and Learning}\\ Memorial University of Newfoundland, St.\ John's, NL, Canada
 \end{itemize*}
@@ -463,49 +495,49 @@ Imperial College London-Silwood Park, Ascot, UK \\
 \end{itemize*}
 
 \bigskip
+% \section{Volunteer Experience}
 \mhead{Volunteer\\ Experience}%
 \textbf{Communications Officer}, \emph{Biology Graduate Student Association} \rdate{\textsc{may}~2019-\textsc{present}}\\
 Memorial University of Newfoundland, St.\ John's, NL, Canada
 \begin{itemize*}
-  \item Managed the Association's weekly Newsletter and all of its social media presence
-  \item Coordinated on- and off-campus advertisement efforts for the Association's activities
+  \item Managed the Association's weekly newsletter, website, and all of its social media presence
+  % \item Coordinated on- and off-campus advertisement efforts for the Association's activities
 \end{itemize*}
 
-\medskip
+\smallskip
 \textbf{Chair}, \emph{Biology Graduate Student Association} \rdate{\textsc{may}~2018-\textsc{apr.}~2019}\\
 Memorial University of Newfoundland, St.\ John's, NL, Canada
 \begin{itemize*}
-  \item Collaborated with the Head of the Department of Biology's Office to involve graduate students in administrative tasks
-  \item Developed, funded, and run ``The Balanced Student: stress and work management for graduate students'', a series of workshops dedicated to mental health and wellness of graduate students
-  \item Hosted a Student-Supervisor Relationship workshop as part of the introductory Graduate Core Seminar course for new graduate students
+  % \item Collaborated with the Head of the Department of Biology's Office to involve graduate students in administrative tasks
+  \item Developed, funded, and run ``The Balanced Student: stress and work management for graduate students'', a workshop series dedicated to graduate students mental health and wellness
+  \item Hosted a Student-Supervisor Relationship workshop during the Graduate Core Seminar course for new graduate students
   \item Coordinated the activities of the Executive Committee, focusing on fundraising and community outreach
 \end{itemize*}
 
-\medskip
+\smallskip
 \textbf{Seminar Coordinator}, \emph{Biology Graduate Student Association} \rdate{\textsc{may}~2017--\textsc{apr.}~2018}\\
 Memorial University of Newfoundland, St.\ John's, NL, Canada
 \begin{itemize*}
-  \item Organized and run the weekly Seminar series for the Department of Biology, as part of a team of three coordinators
-  \item Approached, scheduled and managed potential speakers, from both within and outside the Department and the Province
+  \item Organized and run the weekly Seminar series for the Department of Biology, in a team of three coordinators
+  % \item Approached, scheduled and managed potential speakers, from both within and outside the Department and the Province
   \item Helped in organizing the annual Symposium showcasing the research produced by the Department's graduate students
-  \item Contributed to fundraising and outreach activities organized by the Association
+  \item Contributed to the Association's fundraising and outreach activities
 \end{itemize*}
 
-\medskip
-\textbf{Youth Camps Coordinator}, \emph{OASI-Operazione Mato Grosso} \rdate{\textsc{may}~2000--\textsc{aug.}~2013}\\
+\smallskip
+\textbf{Youth Educator}, \emph{OASI-Operazione Mato Grosso} \rdate{\textsc{may}~2000--\textsc{aug.}~2013}\\
 Turin, Italy
 \begin{itemize*}
-  \item Volunteer work ranging from education to entertainment, involving children and teenagers in primary, secondary and high school, and summer camps
-  \item Engaged in similar formative activities with deprived children during a 2.5-months-long missionary post at the Hospital S{\~a}o Juli{\~a}o in Campogrande, MS, Brazil
+  \item Volunteer work with children and teenagers in primary, secondary and high school, in Turin, Italy, and at the Hospital S{\~a}o Juli{\~a}o in Campogrande, MS, Brazil
   % \item Taught me the value of hard work and developed my publication relationship, oratory and teamwork skills
 \end{itemize*}
 
-\medskip
+\smallskip
 \textbf{Team Leader}, \emph{XX Winter Olympic and IX Paralympic Games} \rdate{\textsc{nov.}~2005-\textsc{mar.}~2006}\\
 Turin, Italy
 \begin{itemize*}
   \item Organized and supervised daily activities of a team of 10 volunteers in the Protocol Crew, International Relations and Services
-  \item provided initial containment of emergencies, customer assistance and ensured my team’s welfare
+  \item Provided initial containment of emergencies, customer assistance and ensured my team’s welfare
   % \item Greatly developed my leadership and problem solving skills
 \end{itemize*}
 
@@ -519,10 +551,12 @@ Turin, Italy
 % \end{itemize*}
 
 \bigskip
+% \section{Professional Affiliations}
 \mhead{Professional\\ Affiliations}%
 Canadian Society of Ecology and Evolution \rdate{2016--2019}\\
 
 \bigskip
+% \section{Conferences Attended}
 \mhead{Conferences\\ Attended}
 \par\vspace{-\baselineskip}\begin{itemize*}
   \item \emph{``Unifying Ecology Across Scales''} \rdate{21--27 \textsc{jul.} 2018}\\
@@ -535,33 +569,35 @@ Canadian Society of Ecology and Evolution \rdate{2016--2019}\\
 \end{itemize*}
 
 \bigskip
+% \section{Software Proficiency}
 \mhead{Software\\ Proficiency}%
-\emph{Working knowledge}\newline%—comfortable using in a professional setting
+% \emph{Working knowledge}\newline%—comfortable using in a professional setting
 R,
 RStudio,
+Mathematica,
 \LaTeX{},
 Markdown,
 Git,
 Unix shell,
 Atom,
 Inkscape,
-Quantum GIS,\\
-ArcGIS
+Quantum GIS,
+ArcGIS,
+Python (basic knowledge)
+
 % Adobe Creative Suite,
 % MacOS~X,
 % Microsoft Office,
 % Microsoft Windows
-
-\medskip
-\emph{Basic knowledge}\newline%—would require some training/use to refresh my memory
-Mathematica,
-SPSS,
-Python
+%
+% \smallskip
+% \emph{Basic knowledge}\newline%—would require some training/use to refresh my memory
 % File Maker Pro Advanced,
 % Gimp,
 % Pixelmator
 
 \bigskip
+% \section{Certificates}
 \mhead{Certificates}
 \par\vspace{-\baselineskip}\begin{itemize*}
 \item Wilderness and Remote First Aid \rdate{\textsc{may}~2016--2019}\\ Canadian Red Cross, St.\ John's, NL, Canada
@@ -572,6 +608,7 @@ Python
 \end{itemize*}
 
 \bigskip
+% \section{Interests}
 \mhead{Interests}%
 Backpacking,
 Hiking,
